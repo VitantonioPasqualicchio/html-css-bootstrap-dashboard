@@ -11,11 +11,26 @@
     <title>html-css-bootstrap-dashboard</title>
 </head>
 
-<body>
-    <!-- Contenitore per Bootstrap -->
-    <div class="container">
-    
-    
+<!-- Si possono usare utility di Bootstrap anche fuori dal DIV Container -->
+<body class="m-0 p-0">
+
+    <!-- Contenitore per Bootstrap - fluid per occupare il 100% della larghezza e px-0 per azzerare padding laterali di default -->
+    <div class="container-fluid px-0">
+        
+        <header>
+            <!-- Implementazione NavBar -->
+            <nav class="navbar navbar-expand-md bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                    <img src="./img/duck.png" alt="Duck Image" width="45" height="45">
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+        </main>
 
     <!-- Chiusura div container -->
     </div>

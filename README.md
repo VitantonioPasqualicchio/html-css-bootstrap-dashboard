@@ -12,4 +12,3 @@
 ### Ogni volta che volete usare un componente di Bootstrap fate sempre una prova su un altro file, copiate il codice di esempio dalla documentazione, osservate il comportamento, e solo quando siete sicuri che tutto funzioni come volete, integratelo nel vostro layout.
 
 ### Così facendo il codice CSS custom che scriverete risulterà abbastanza ridotto.
-
